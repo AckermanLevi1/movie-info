@@ -1,0 +1,104 @@
+/* Reset default margin and padding for the page */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background image and styles for the body */
+body {
+    background-image: url('https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1697217223~exp=1697217823~hmac=fb98e196d954c9a841de136c18083f1a3d2a7059878372928e8628e676225272');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Center the main content vertically and horizontally */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the search bar */
+.search-bar {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width:500px;
+    text-align: center;
+    position: absolute;
+    top:0%;
+}
+
+#search-input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    font-size:medium;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+/* Center the search button within the search bar */
+#search-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+/* Additional styles for the movie info section */
+.movie-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.poster {
+    flex: 1;
+    padding: 100px 100px 0 100px;
+    margin-top: 5%;
+}
+
+#movie-poster {
+    max-width: 100%;
+    height: auto;
+}
+
+.details {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Additional styles for the movie details */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Style the spans inside the movie details */
+span {
+    font-weight: bold;
+}
